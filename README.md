@@ -1,4 +1,4 @@
-Example Code that can be run \n\n\n\n\n\n
+Example Code that can be run
 JMP TEST4 ;CHANGE THIS VALUE TO SET WHAT GETS TESTED
 RETURN:
 BRK
