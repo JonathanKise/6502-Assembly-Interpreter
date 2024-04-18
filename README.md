@@ -1,11 +1,11 @@
-Example Code that can be run
+Example Code that can be run \n\n\n\n\n\n
 JMP TEST4 ;CHANGE THIS VALUE TO SET WHAT GETS TESTED
 RETURN:
 BRK
 
 TEST1:
 ;****LOAD INC AND DEC TEST****
-LDA #$2C
+LDA #$2C 
 LDX #$3
 DEX
 INY
