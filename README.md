@@ -1,4 +1,4 @@
-Certainly! Here’s a reformatted version that explains the project can run the 6502 instruction set in Node.js and includes an example of the code that can be written:
+Certainly! Here’s the updated README with a note about potential issues with some pseudo-instructions used by the 6502:
 
 ---
 
@@ -6,9 +6,31 @@ Certainly! Here’s a reformatted version that explains the project can run the 
 
 This project allows you to run the 6502 instruction set in a Node.js environment. Below is an example of the kind of assembly code you can write and execute using this project.
 
-## Usage
+## Setup Instructions
 
-Clone the repository and follow the setup instructions to run 6502 assembly code. Change the `JMP TESTX` instruction to the desired test to see the corresponding behavior.
+To set up and run this project, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/6502-assembly-nodejs.git
+   cd 6502-assembly-nodejs
+   ```
+
+2. **Install dependencies:**
+   Ensure you have Node.js installed. Then, install the required npm packages:
+   ```bash
+   npm install
+   ```
+
+3. **Run the example code:**
+   Use the following command to run the example 6502 assembly code:
+   ```bash
+   node run6502.js
+   ```
+
+## Example Code
+
+Change the `JMP TESTX` instruction to the desired test to see the corresponding behavior.
 
 ```assembly
 JMP TEST4  ; CHANGE THIS VALUE TO SET WHAT GETS TESTED
@@ -60,6 +82,10 @@ TESTINGBRANCH:
     ; LDA 2C will be skipped and 3C will be loaded into A
     JMP RETURN
 ```
+
+## Note
+
+This program may not work with some of the pseudo-instructions used by the 6502. Please be aware of this limitation when writing and testing your assembly code.
 
 ## MOS Technology 6502 ASM Instruction Set
 
