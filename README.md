@@ -1,14 +1,14 @@
-Certainly! Here’s a nicely formatted version of your code and the 6502 assembly instruction set for a GitHub README:
+Certainly! Here’s a reformatted version that explains the project can run the 6502 instruction set in Node.js and includes an example of the code that can be written:
 
 ---
 
-# 6502 Assembly Code Examples
+# 6502 Assembly in Node.js
 
-This repository contains example code snippets for the MOS Technology 6502 assembly language, demonstrating various instructions and behaviors.
+This project allows you to run the 6502 instruction set in a Node.js environment. Below is an example of the kind of assembly code you can write and execute using this project.
 
 ## Usage
 
-Change the `JMP TESTX` instruction to the desired test to see the corresponding behavior.
+Clone the repository and follow the setup instructions to run 6502 assembly code. Change the `JMP TESTX` instruction to the desired test to see the corresponding behavior.
 
 ```assembly
 JMP TEST4  ; CHANGE THIS VALUE TO SET WHAT GETS TESTED
@@ -62,6 +62,8 @@ TESTINGBRANCH:
 ```
 
 ## MOS Technology 6502 ASM Instruction Set
+
+The following is a reference for the 6502 assembly instruction set, which you can use in your code:
 
 | Mnemonic | Description                       |
 |----------|-----------------------------------|
@@ -122,6 +124,6 @@ TESTINGBRANCH:
 | TXS      | Transfer X to stack pointer       |
 | TYA      | Transfer Y to accumulator         |
 
-Feel free to explore and modify the code to better understand the 6502 instruction set.
+Feel free to explore and modify the code to better understand and utilize the 6502 instruction set in Node.js.
 
 ---
