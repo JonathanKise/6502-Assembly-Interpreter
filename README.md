@@ -12,7 +12,7 @@ To set up and run this project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/6502-assembly-nodejs.git
+   git clone https://github.com/JonathanKise/6502-assembly-nodejs.git
    cd 6502-assembly-nodejs
    ```
 
